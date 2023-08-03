@@ -26,9 +26,18 @@
   left: -40px;
   z-index: -1;
 }
-.introducao p {
-  font-size: 1.5rem;
-  color: #525252;
+
+.introducao-botao {
+  display: flex;
+  gap: 26px;
+}
+.introducao-botao img {
+  width: 26px;
+  height: 26px;
+}
+.introducao-botao img:hover {
+  scale: 1.5;
+  transition: 0.2s;
 }
 
 @media (max-width: 1000px) {
@@ -48,6 +57,10 @@
     width: 30px;
     height: 10px;
     left: 0;
+  }
+  .introducao-botao img {
+    width: 20px;
+    height: 20px;
   }
 }
 @media (max-width: 400px) {

@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lobo Desenvolvedor e Designer</title>
+  <title>Onofre Desenvolvedor e Designer</title>
   <meta name="description" content="Desenvolvedor Front End e UX/UI Designer, localizado em Campo Grande-MS">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <img src="./img/marca.svg" alt="Lobo" width="104" height="38">
+    <h1 class="header__titulo">Onofre Neto</h1>
     <nav>
       <ul class="header__menu">
-        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
@@ -23,52 +23,67 @@
   </header>
 
   <main class="introducao">
-    <img src="./img/perfil.jpg" alt="lobo cinza" width="360" height="520">
+    <img src="./img/img_neto-removebg-preview.png" alt="Foto pessoal" width="360" height="520">
     <div>
       <h1>Desenvolvedor <br> Front End &<br> UX/UI Designer</h1>
-      <p>Localizado em Campo Grande</p>
+      <ul class="introducao-botao">
+        <li>
+          <a href="https://github.com/OnofreNeto0" target="_blank"><img src="./img/github-logo.png" alt="GitHub"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/onofre-goncalves/" target="_blank"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+        </li>
+        <li>
+          <a href="./documentos/Curriculo pg-pdf-2.pdf" download="Curriculo"><img src="./img/interface-user-curriculum.png" alt="Curriculo"></a>
+        </li>
+      </ul>
+
     </div>
   </main>
 
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
+  <section class="projetos" id="projetos" aria-label="Projetos">
+    <h2 class="subtitulo">Projetos</h2>
     <div>
-      <p class="experiencia__texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto</p>
+      <p class="projetos-texto">Desenvolvo projetos utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Também trabalho no <strong>UX</strong> e <strong>UI Design</strong> de projetos criando interfaces dinâmicas, responsivas e intuitivas que impulsionem a usabilidade e a estética.</p>
 
-      <div class="empresa">
-        <span class="empresa__ano">2045</span>
-        <h3 class="empresa__titulo">Bikcraft</h3>
-        <span class="empresa__titulo">Desenvolvedor Junior</span>
-        <p class="empresa__texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS, JavaScript e UX/UI Design.</p>
-        <ul class="empresa__habilidades">
+      <div class="projetos-itens">
+        <span class="projetos-nome">Projeto</span>
+        <h3 class="projetos-titulo">Bikcraft</h3>
+        <a class="projetos-botao" href="https://onofreneto0.github.io/bikcraft/" target="_blank">Visitar Projeto</a>
+        <p class="projetos-descricao">Desenvolvi esse projeto: Bikcraft utilizando apenas HTML, CSS, JavaScript e UX/UI Design.</p>
+        <ul class="projetos-ferramentas">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>UX Design</li>
         </ul>
+        <img class="projetos-imagem" src="./img/Bikcraft.png" alt="">
+
       </div>
 
-      <div class="empresa">
-        <span class="empresa__ano">2023</span>
-        <h3 class="empresa__titulo">AluraBooks</h3>
-        <span class="empresa__titulo">Desenvolvedor Junior</span>
-        <p class="empresa__texto">Desenvolvo pequenos projetos como o AluraBooks utilizando apenas HTML, CSS e JavaScript.</p>
-        <ul class="empresa__habilidades">
+      <div class="projetos-itens">
+        <span class="projetos-nome">Projeto</span>
+        <h3 class="projetos-titulo">AluraBooks</h3>
+        <a class="projetos-botao" href="https://onofreneto0.github.io/aula-alura-alurabooks/" target="_blank">Visitar Projeto</a>
+        <p class="projetos-descricao">Desenvolvi esse projeto: AluraBooks utilizando <br> apenas HTML, CSS e JavaScript.</p>
+        <ul class="projetos-ferramentas">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul>
+        <img class="projetos-imagem" src="./img/AluraBooks.png" alt="">
       </div>
 
-      <div class="empresa">
-        <span class="empresa__ano">2023</span>
-        <h3 class="empresa__titulo">Alura Pluss</h3>
-        <span class="empresa__titulo">Desenvolvedor Junior</span>
-        <p class="empresa__texto">Desenvolvo pequenos projetos como o Alura Pluss utilizando apenas HTML e CSS.</p>
-        <ul class="empresa__habilidades">
+      <div class="projetos-itens">
+        <span class="projetos-nome">Projeto</span>
+        <h3 class="projetos-titulo">Alura Pluss</h3>
+        <a class="projetos-botao" href="https://onofreneto0.github.io/aula-alura-plus/" target="_blank">Visitar Projeto</a>
+        <p class="projetos-descricao">Desenvolvi esse pequeno projeto: Alura Pluss utilizando apenas HTML e CSS.</p>
+        <ul class="projetos-ferramentas">
           <li>HTML</li>
           <li>CSS</li>
         </ul>
+        <img class="projetos-imagem" src="./img/aluraPluss.png" alt="">
       </div>
 
     </div>
@@ -80,28 +95,43 @@
     <div class="formacao-container">
       <h2 class="subtitulo">Formação</h2>
       <div>
-        <p class="formacao__texto">
-          Minha mais recente experiência acadêmica esta sendo a <strong>graduação</strong> que estou cursando na Unicesumar, em <strong>Analise e Desenvolvimento de Sistemas</strong> . Além disso me mantenho sempre atualizado com cursos intensivos online.
+        <p class="formacao-texto">
+          Minha mais recente experiência acadêmica esta sendo o <strong>Curso</strong> que estou fazendo na Origamid, de <strong>React</strong> . Além disso me mantenho sempre atualizado com tendencias de mercado e replicando projetos existentes.
         </p>
-        <ul class="faculdade__lista">
-          <li class="faculdade">
-            <span class="faculdade__tipo">Tecnológo</span>
-            <h3 class="faculdade__curso"> Analise e Desenvolvimento de Sistemas</h3>
-            <span class="faculdade__instituicao">UNICESUMAR</span>
+        <ul class="cursos-lista">
+          <li class="cursos-item">
+            <span class="cursos-tipo">Curso Intensivo</span>
+            <h3 class="curso-nome"> HTML</h3>
+            <span class="curso-instituicao">Origamid</span>
           </li>
-          <li class="faculdade">
-            <span class="faculdade__tipo">Técnico</span>
-            <h3 class="faculdade__curso"> Transações Imobiliárias</h3>
-            <span class="faculdade__instituicao">Int.Monitor</span>
+          <li class="cursos-item">
+            <span class="cursos-tipo">Curso Intensivo</span>
+            <h3 class="curso-nome"> CSS</h3>
+            <span class="curso-instituicao">Origamid</span>
+          </li>
+          <li class="cursos-item">
+            <span class="cursos-tipo">Curso Intensivo</span>
+            <h3 class="curso-nome"> JavaScript</h3>
+            <span class="curso-instituicao">Origamid</span>
+          </li>
+          <li class="cursos-item">
+            <span class="cursos-tipo">Curso Intensivo</span>
+            <h3 class="curso-nome">UX / UI Design</h3>
+            <span class="curso-instituicao">Origamid</span>
+          </li>
+          <li class="cursos-item">
+            <span class="cursos-tipo">Formação Front End</span>
+            <h3 class="curso-nome">HTML, CSS, JavaScript</h3>
+            <span class="curso-instituicao">Alura</span>
           </li>
         </ul>
 
-        <div class="formacao__extra">
+        <div class="cursos-extras">
           <div class="cursos">
-            <h3>Cursos Intensivos</h3>
+            <h3>Cursos em Andamento</h3>
             <ul>
-              <li>UX Design & UI Design <span>56h</span></li>
-              <li>Front End para Iniciantes <span>72h</span></li>
+              <li>React <span>Origamid</span></li>
+              <li>Inglês <span>Particular</span></li>
             </ul>
           </div>
         </div>
@@ -110,15 +140,17 @@
     </div>
 
   </section>
+
   <footer class="footer" id="contato">
     <div class="footer-container">
       <p class="footer-texto"> Estou disponivel para novos projetos no momento. Entre em contato comigo e marcamos uma conversa </p>
       <ul class="footer-contato">
-        <li>lobo@email.com</li>
-        <li>+55 67 99999-9999</li>
-        <li> <a href="/">@Instagram</a></li>
+        <li>neto.zipp@gmail.com</li>
+        <li>+55 67 99698-5713</li>
+        <li> <a href="https://www.linkedin.com/in/onofre-goncalves/" target="_blank">@LinkedIn</a></li>
+        <li> <a href="https://github.com/OnofreNeto0" target="_blank">@GitHub</a></li>
       </ul>
-      <p class="footer-copy">Lobo. Alguns direitos reservados.</p>
+      <p class="footer-copy">Onofre. Alguns direitos reservados.</p>
 
     </div>
 
